@@ -16,5 +16,7 @@ export class AppComponent {
     isFavorite: false
   };
 
-  onMediaItemDelete(mediaItem) {}
+  onMediaItemDelete(mediaItem) {
+
+  }
 }
