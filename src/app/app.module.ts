@@ -22,11 +22,11 @@ import { MediaItemService } from './media-item.service';
     CategoryListPipe,
     MediaItemFormComponent
   ],
-  bootstrap: [
-    AppComponent
-  ],
   providers: [
     MediaItemService
+  ],
+  bootstrap: [
+    AppComponent
   ]
 })
 export class AppModule {}
