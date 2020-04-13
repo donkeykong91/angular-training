@@ -27,7 +27,7 @@ import { MockXHRBackend } from './mock-xhr-backend';
   ],
   providers: [
     { provide: lookupListToken, useValue: lookupLists },
-    {provide: HttpXhrBackend, useClass: MockXHRBackend}
+    { provide: HttpXhrBackend, useClass: MockXHRBackend }
   ],
   bootstrap: [
     AppComponent
