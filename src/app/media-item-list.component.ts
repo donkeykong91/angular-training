@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { MediaItemService, MediaItem } from './media-item.service';
 import { ActivatedRoute } from '@angular/router';
+import { MediaItemService, MediaItem } from './media-item.service';
 
 @Component({
   selector: 'mw-media-item-list',
@@ -11,8 +11,9 @@ export class MediaItemListComponent implements OnInit {
   medium = '';
   mediaItems: MediaItem[];
 
-  constructor(private mediaItemService: MediaItemService,
-              private activatedRoute: ActivatedRoute) {}
+  constructor(
+    private mediaItemService: MediaItemService,
+    private activatedRoute: ActivatedRoute) {}
 
   ngOnInit() {
     this.activatedRoute.paramMap
