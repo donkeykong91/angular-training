@@ -23,7 +23,7 @@ import { NewItemModule } from './new-item/new-item.module';
     MediaItemComponent,
     MediaItemListComponent,
     FavoriteDirective,
-    CategoryListPipe,
+    CategoryListPipe
   ],
   providers: [
     { provide: lookupListToken, useValue: lookupLists },
