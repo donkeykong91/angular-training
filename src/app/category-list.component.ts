@@ -8,15 +8,16 @@ import { Component, Input } from '@angular/core';
     </span>
   `,
   styles: [
-    ` :host {
+    `
+      :host {
         display: block;
         margin-bottom: 20px;
       }
       :host-context(.medium-movies) span {
-        background-color:#53ace4;
+        background-color: #53ace4;
       }
       :host-context(.medium-series) span {
-        background-color:#45bf94;
+        background-color: #45bf94;
       }
       .label {
         background-color: #999999;
