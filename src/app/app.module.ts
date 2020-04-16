@@ -9,19 +9,17 @@ import { CategoryListPipe } from './category-list.pipe';
 import { lookupListToken, lookupLists } from './providers';
 import { MockXHRBackend } from './mock-xhr-backend';
 import { routing } from './app.routing';
-import { CategoryListComponent } from './category-list.component';
 
 @NgModule({
   imports: [
     BrowserModule,
     HttpClientModule,
-    routing
+    routing,
   ],
   declarations: [
     AppComponent,
     MediaItemComponent,
     MediaItemListComponent,
-    CategoryListComponent,
     FavoriteDirective,
     CategoryListPipe
   ],
